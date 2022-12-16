@@ -33,17 +33,17 @@ Garbage.create([
   }
 ])
 
-reviews = Review.create([
-  {
-    title: 'Open your eyes',
-    description: 'Just open your eyes to see the big trash can',
-    score: 5,
-    garbage: garbages.first
-  },
-  {
-    title: 'Move your hands',
-    description: 'Time to move your hands for good',
-    score: 5,
-    garbage: garbages.first
-  }
-])
+# reviews = Review.create([
+#   {
+#     title: 'Open your eyes',
+#     description: 'Just open your eyes to see the big trash can',
+#     score: 5,
+#     garbage: garbages.first
+#   },
+#   {
+#     title: 'Move your hands',
+#     description: 'Time to move your hands for good',
+#     score: 5,
+#     garbage: garbages.first
+#   }
+# ])
