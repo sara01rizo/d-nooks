@@ -1,6 +1,8 @@
 module Api
   module V1
     class GarbagesController < ApplicationController
+      protect_from_forgery with: :null_session
+
       def index
         garbages = Garbage.all
 
