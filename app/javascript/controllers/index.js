@@ -9,3 +9,16 @@ eagerLoadControllersFrom("controllers", application)
 // Lazy load controllers as they appear in the DOM (remember not to preload controllers in import map!)
 // import { lazyLoadControllersFrom } from "@hotwired/stimulus-loading"
 // lazyLoadControllersFrom("controllers", application)
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import App from '../src/components/App'
+
+document.addEventListener('DOMContentLoaded', () => {
+  ReactDOM.render(
+    <Router>
+      <Route path="/" component={App}/>
+    </Router>,
+    document.body.appendChild(document.createElement('div')),
+  )
+})
