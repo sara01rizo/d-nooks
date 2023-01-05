@@ -14,6 +14,22 @@ Running it locally
 bundle
 npm
 
+Environment Variables
+
+config/application.yml
+
+Routes
+
+Api V1 (Graphql)
+
+Get Garbages#index
+
+Get Barbages#show
+
+Create Review
+
+Destroy Review
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
